@@ -18,6 +18,10 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value="/list")
+	public String list(Model model) {
+		return "list";
+	}
 	
 	
 }
